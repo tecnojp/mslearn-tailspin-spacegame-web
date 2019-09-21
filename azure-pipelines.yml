@@ -38,14 +38,14 @@ steps:
 - task: SonarCloudPrepare@1
   displayName: 'Prepare SonarCloud analysis'
   inputs:
-    SonarCloud: 'SonarCloud-SpaceShip Connection'
+    SonarCloud: 'SonarCloud connection 1'
     organization: '$(organization)'
     projectKey: '$(projectKey)'
     projectName: '$(projectName)'
     projectVersion: '$(Build.BuildNumber)'
     extraProperties: |
-      sonar.cs.opencover.reportsPaths=$(Build.SourcesDirectory)/TestResults/Coverage/coverage.opencover.xml
-      sonar.exclusions=**/wwwroot/lib/**/*
+     sonar.cs.opencover.reportsPaths=$(Build.SourcesDirectory)/TestResults/Coverage/coverage.opencover.xml
+     sonar.exclusions=**/wwwroot/lib/**/*
   condition: |
     and
     (
@@ -89,7 +89,7 @@ steps:
       eq(variables['Build.Reason'], 'PullRequest'),
       eq(variables['System.PullRequest.TargetBranch'], 'master')
     )
-
+ 
 - task: SonarCloudPublish@1
   displayName: 'Publish SonarCloud quality gate results'
   condition: |
