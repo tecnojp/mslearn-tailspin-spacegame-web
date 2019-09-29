@@ -1,0 +1,80 @@
+
+mTailSpin.SpaceGame.Web.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)^
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs (%"0*”
+0‚
+ÿ
+^
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs (A
+%0;Microsoft.Extensions.DependencyInjection.IServiceCollection"µMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions.Configure<TOptions>(Microsoft.Extensions.DependencyInjection.IServiceCollection, System.Action<TOptions>)*O"M
+KMicrosoft.Extensions.DependencyInjection.OptionsServiceCollectionExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*
+""Å
+Â
+^
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs (:
+%14Microsoft.Extensions.DependencyInjection.IMvcBuilder"‹Microsoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions.AddMvc(Microsoft.Extensions.DependencyInjection.IServiceCollection)*K"I
+GMicrosoft.Extensions.DependencyInjection.MvcServiceCollectionExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionv
+t
+^
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs6 (V
+%2"__id*
+""ó
+ð
+^
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs (W:
+%34Microsoft.Extensions.DependencyInjection.IMvcBuilder"ÁMicrosoft.Extensions.DependencyInjection.MvcCoreMvcBuilderExtensions.SetCompatibilityVersion(Microsoft.Extensions.DependencyInjection.IMvcBuilder, Microsoft.AspNetCore.Mvc.CompatibilityVersion)*H"F
+DMicrosoft.Extensions.DependencyInjection.MvcCoreMvcBuilderExtensions*<
+:
+%14Microsoft.Extensions.DependencyInjection.IMvcBuilder*
+
+%2ÓÐ
+^
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs!@ !(9
+%43TailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>"3TailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>Ÿ
+œ
+^
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs!D !(d
+
+%5void"UTailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>.LocalDocumentDBRepository(string)*;
+9
+%43TailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>*
+SampleData/scores.json¬
+©
+_
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs! !(€A
+%6;Microsoft.Extensions.DependencyInjection.IServiceCollection"©Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, TService)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*;
+9
+%43TailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>ÔÑ
+_
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs"B "(…9
+%73TailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>"3TailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>¡
+ž
+^
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs"F "(h
+
+%8void"UTailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>.LocalDocumentDBRepository(string)*;
+9
+%73TailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>*
+SampleData/profiles.json¬
+©
+_
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs" "(†A
+%9;Microsoft.Extensions.DependencyInjection.IServiceCollection"©Microsoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions.AddSingleton<TService>(Microsoft.Extensions.DependencyInjection.IServiceCollection, TService)*O"M
+KMicrosoft.Extensions.DependencyInjection.ServiceCollectionServiceExtensions*I
+G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollection*;
+9
+%73TailSpin.SpaceGame.Web.LocalDocumentDBRepository<T>*
+1*z
+1"u
+^
+T/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/Tailspin.SpaceGame.Web/Startup.cs# #(	
+implicit return:G
+services;Microsoft.Extensions.DependencyInjection.IServiceCollectionB" 
+TailSpin.SpaceGame.Web.Startup

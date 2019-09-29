@@ -1,0 +1,1 @@
+/mnt/d/Source/Repos/mslearn-tailspin-spacegame-web/.sonarqube/out/1
